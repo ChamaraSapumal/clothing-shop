@@ -10,7 +10,7 @@ export default function NavBar() {
             className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none"
           >
             <img src={logo} className="bi me-2" width="40" height="32" />
-            <span className="fs-4">Devify</span>
+            <span className="fs-4">Devify&reg;</span>
           </a>
           <div className="col-9 col-lg-auto mb-3 mb-md-0">
             <div className="input-group">
@@ -64,17 +64,17 @@ export default function NavBar() {
                   className="nav-link link-body-emphasis px-2 active"
                   aria-current="page"
                 >
-                  Men's
+                  Men&apos;s
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link link-body-emphasis px-2">
-                  Women's
+                  Women&apos;s
                 </a>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link link-body-emphasis px-2">
-                  Kid's
+                  Kid&apos;s
                 </a>
               </li>
             </ul>

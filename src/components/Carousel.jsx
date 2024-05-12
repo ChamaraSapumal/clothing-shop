@@ -74,7 +74,7 @@ export default function Carousel() {
             <img src={carouselImg3} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h1 className="display-1 fw-bolder text-capitalize text-center">
-                Kid's Fashion
+                Kid&apos;s Fashion
               </h1>
               <p className="mt-lg-5 pt-lg-4 h3">
                 Some representative placeholder content for the second slide.
@@ -130,35 +130,36 @@ export default function Carousel() {
         </button>
       </div>
 
-      <div className="bg-dark-subtle ">
+      <div className="bg-dark-subtle shadow-lg">
         <div className="container">
           <div className="row gy-md-2">
             <div className="col-md-4 mt-md-4 text-center">
-              <p className="fs-5 p-transition">
-                <i className="bi bi-truck display-2"></i>{" "}
-                <h3>Island Wide Delivary</h3>
-                <h6>Your items shipped island-wide, at no extra cost.</h6>
-              </p>
+              <div className="fs-5 p-transition">
+                <i className="bi bi-truck display-2"></i>
+                <h3>Island Wide Delivery</h3>
+              </div>
+              <h6 className="d-none d-md-block">
+                Your items shipped island-wide, at no extra cost.
+              </h6>
             </div>
             <div className="col-md-4 mt-md-4 text-center">
-              <p className="fs-5">
+              <div className="fs-5">
                 <i className="bi bi-arrow-left-right display-2"></i>
                 <h3>Returns And Exchange Available</h3>
-                <h6>
-                  Returns and exchanges are readily available for your
-                  convenience.
-                </h6>
-              </p>
+              </div>
+              <h6 className="d-none d-md-block">
+                Returns and exchanges are readily available for your
+                convenience.
+              </h6>
             </div>
             <div className="col-md-4 mt-md-4 my-md-5 text-center">
-              <p className="fs-5">
-                <i className="bi bi-award display-2"></i>{" "}
+              <div className="fs-5">
+                <i className="bi bi-award display-2"></i>
                 <h3>Comfort and Best Quality</h3>
-                <h6>
-                  Experience both comfort and top-notch quality with our
-                  products.
-                </h6>
-              </p>
+              </div>
+              <h6 className="d-none d-md-block">
+                Experience both comfort and top-notch quality with our products.
+              </h6>
             </div>
           </div>
         </div>

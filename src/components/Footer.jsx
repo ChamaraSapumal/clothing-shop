@@ -7,7 +7,9 @@ export default function Footer() {
         className=" d-flex flex-column flex-sm-row justify-content-between border-top pt-3 pb-0 bg-dark"
         data-bs-theme="dark"
       >
-        <h3 className="text-white m-1 mt-0">Connect with us</h3>
+        <span className="text-white m-1 mt-0 h3">
+          Connect with us <i className="bi bi-arrow-right h3"></i>
+        </span>
         <ul className="list-unstyled d-flex ms-auto">
           <li className="ms-3">
             <a className="link-body-emphasis" href="#">
@@ -39,7 +41,7 @@ export default function Footer() {
           >
             <img src={logo} className="bi me-2" width="96" height="96"></img>
           </a>
-          <p className="text-body-secondary">&copy; 2024 Devify</p>
+          <p className="text-body-secondary">&copy; 2024 Devify&reg;</p>
         </div>
 
         <div className="col mb-3"></div>
