@@ -2,6 +2,7 @@ import carouselImg1 from "../assets/images/carouselImg1.jpg";
 import carouselImg2 from "../assets/images/carouselImg2.jpg";
 import carouselImg3 from "../assets/images/carouselImg3.jpg";
 import carouselImg4 from "../assets/images/carouselImg4.jpg";
+import carouselImg5 from "../assets/images/carouselImg5.jpg";
 import "./Carousel.css";
 
 export default function Carousel() {
@@ -38,6 +39,12 @@ export default function Carousel() {
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="3"
             aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
           ></button>
         </div>
         <div className="carousel-inner">
@@ -76,6 +83,17 @@ export default function Carousel() {
           </div>
           <div className="carousel-item c-item">
             <img src={carouselImg4} className="d-block w-100 c-img" alt="..." />
+            <div className="carousel-caption align-self-start top-0 mt-4 ">
+              <h1 className="display-1 fw-bolder text-capitalize shadow-lg">
+                Feel like your place
+              </h1>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div className="carousel-item c-item">
+            <img src={carouselImg5} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption align-self-start top-0 mt-4 ">
               <h1 className="display-1 fw-bolder text-capitalize shadow-lg">
                 Feel like your place
