@@ -2,7 +2,7 @@ import logo from "../../public/title-icon.png";
 
 export default function NavBar() {
   return (
-    <div className="container-fluid">
+    <div>
       <header className="py-2 border-bottom">
         <div className="container d-flex flex-wrap justify-content-center">
           <a
@@ -10,10 +10,10 @@ export default function NavBar() {
             className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none"
           >
             <img src={logo} className="bi me-2" width="40" height="32" />
-            <span className="fs-4">Double header</span>
+            <span className="fs-4">Devify</span>
           </a>
-          <div className="col-12 col-lg-auto mb-3 mb-lg-0">
-            <div className="input-group mb-3">
+          <div className="col-9 col-lg-auto mb-3 mb-md-0">
+            <div className="input-group">
               <input
                 type="text"
                 className="form-control"
@@ -30,10 +30,19 @@ export default function NavBar() {
               </button>
             </div>
           </div>
+          <div className="col-1 col-lg-auto m-3 mt-0 mb-0 mb-md-0">
+            <i
+              className="bi bi-cart-check-fill h2 text-dark-emphasis"
+              role="button"
+            ></i>
+          </div>
         </div>
       </header>
 
-      <nav className="navbar navbar-expand-lg py-1 mb-4 bg-body-tertiary border-bottom">
+      <nav
+        className="navbar navbar-expand-lg py-0 m-0 bg-dark border-bottom"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid">
           <button
             className="navbar-toggler ms-auto"
