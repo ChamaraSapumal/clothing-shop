@@ -1,20 +1,31 @@
 import "./QuickAssist.css";
+import facebook from "../assets/icons/facebook.gif";
+import whatsapp from "../assets/icons/whatsapp.gif";
+import insta from "../assets/icons/insta.png";
+import tiktok from "../assets/icons/tiktok.gif";
 
 export default function QuickAssist() {
   return (
     <div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row d-flex align-items-center pb-4 pt-5">
           <div className="col">
             <hr />
           </div>
           <div className="col-auto">
-            <h1 className=" text-end">Get Help</h1>
+            <h1 className=" text-end fw-semibold">Get Help</h1>
           </div>
+        </div>
+        <div className="container mt-lg-4">
+          <h3 className=" fw-medium">Quick assist</h3>
+          <h6 className="fw-light">
+            Answers and support to our most frequently asked questions are just
+            one click away.
+          </h6>
         </div>
       </div>
 
-      <div className="container pt-3 mt-lg-3">
+      <div className="container pt-1 mt-lg-2">
         <div className="row justify-content-center">
           <div className="col-md-4 gy-3">
             <div className="accordion" id="accordionExample2">
@@ -330,6 +341,41 @@ export default function QuickAssist() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container pt-lg-5 mt-lg-4">
+        <div className="row">
+          <div className="col-lg-4 pt-5">
+            <h3 className=" fw-medium">Let&apos;s talk</h3>
+            <h6 className="fw-light">Monday-Friday. 9am-4pm</h6>
+            <h6 className="fw-light">
+              Slow Or No Response On Mercantile And Public Holidays,
+            </h6>
+            <a href="#" className="h6 fw-light">
+              +94 11234567
+            </a>
+          </div>
+          <div className="col-lg-3"></div>
+          <div className="col-lg-5 pt-5">
+            <h3 className=" fw-medium">Let&apos;s connect</h3>
+            <h6 className="fw-light pb-2">
+              Like us, follow us for viral fashionable video’s and photos. Keep
+              updated on new items and the latest in fashion.
+            </h6>
+            <a href="#">
+              <img src={whatsapp} alt="" />
+            </a>
+            <a href="#" className="pt-3">
+              <img src={facebook} alt="" className="p-3" />
+            </a>
+            <a href="#" className="pt-3">
+              <img src={tiktok} alt="" />
+            </a>
+            <a href="#" className="pt-3">
+              <img src={insta} alt="" className="p-3" />
+            </a>
           </div>
         </div>
       </div>

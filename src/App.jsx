@@ -1,3 +1,4 @@
+import AboutUs from "./components/AboutUs.jsx";
 import Carousel from "./components/Carousel.jsx";
 import Footer from "./components/Footer.jsx";
 import NavBar from "./components/NavBar.jsx";
@@ -9,6 +10,8 @@ function App() {
       <NavBar></NavBar>
       <div>
         <Carousel></Carousel>
+
+        <AboutUs></AboutUs>
         <QuickAssist></QuickAssist>
       </div>
       <Footer></Footer>

@@ -1,0 +1,12 @@
+.line-space {
+  line-height: 1.5;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-item {
+  height: 480px;
+}
