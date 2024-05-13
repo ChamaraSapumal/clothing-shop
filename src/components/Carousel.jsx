@@ -4,8 +4,17 @@ import carouselImg3 from "../assets/images/carouselImg3.jpg";
 import carouselImg4 from "../assets/images/carouselImg4.jpg";
 import carouselImg5 from "../assets/images/carouselImg5.jpg";
 import "./Carousel.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Carousel() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <div>
       <div
@@ -50,7 +59,7 @@ export default function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active c-item">
             <img src={carouselImg1} className="d-block w-100 c-img" alt="..." />
-            <div className="carousel-caption mt-5">
+            <div className="carousel-caption mt-5" data-aos="fade-up">
               <h1 className="display-1 fw-bolder text-capitalize text-center">
                 First slide label
               </h1>
@@ -62,7 +71,10 @@ export default function Carousel() {
           <div className="carousel-item c-item">
             <img src={carouselImg2} className="d-block w-100 c-img" alt="..." />
             <div className="carousel-caption align-self-start top-0">
-              <h1 className="display-1 fw-bolder text-capitalize text-center">
+              <h1
+                className="display-1 fw-bolder text-capitalize text-center"
+                data-aos="fade-up"
+              >
                 Second slide label
               </h1>
               <p className="mt-lg-5 pt-lg-4 h3">

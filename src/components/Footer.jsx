@@ -2,7 +2,7 @@ import logo from "../../public/title-icon.png";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="pt-4">
       <div
         className=" d-flex flex-column flex-sm-row justify-content-between border-top pt-3 pb-0 bg-dark"
         data-bs-theme="dark"
